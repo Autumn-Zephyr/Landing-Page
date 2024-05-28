@@ -135,3 +135,35 @@ button
     text-align: right;
     font-size: large;
 }
+
+.end
+{
+    padding: 80px;
+}
+
+.foot
+{
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.sign
+{
+    border: 3px solid #f9faf8;
+    border-radius: 3mm;
+}
+
+.last
+{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;align-items: center;
+    height: 100px;
+}
