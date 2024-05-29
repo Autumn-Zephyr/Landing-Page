@@ -10,6 +10,7 @@ body
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .logo
@@ -41,13 +42,17 @@ a
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 100px;
     flex-shrink: 1;
-    gap: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .text
 { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 500px;
     height: 300px;
 }
@@ -73,6 +78,7 @@ button
     font-size: 20px;
     width: 120px;
     height: 34px;
+    border: none;
 }
 
 .image
@@ -104,6 +110,7 @@ button
     justify-content: center;
     gap: 50px;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .box
@@ -127,6 +134,7 @@ button
     color: #1f2937;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .inner
@@ -152,6 +160,7 @@ button
     padding: 80px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .foot
@@ -163,9 +172,9 @@ button
     align-items: center;
     gap: 50px;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 900px;
-    height: 100px;
+    flex-wrap: wrap;
 }
 
 .sign
